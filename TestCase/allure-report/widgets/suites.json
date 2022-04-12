@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "b56820eec516701137fc03a1007266bb",
+    "name" : "test_EndToEndCash",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

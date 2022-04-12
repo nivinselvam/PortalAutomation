@@ -1,0 +1,4 @@
+2022-03-18 13:50:55,227 - setUp.py:[29] - [INFO] - ================= Execution Logs : login API response =================
+2022-03-18 13:50:55,228 - setUp.py:[30] - [INFO] - {'success': False, 'errorCode': 'JAVA_EXCEPTION_CAUGHT', 'setting': {}, 'apps': []}
+2022-03-18 13:50:55,417 - setUp.py:[29] - [INFO] - ================= Execution Logs : cashPayment API response =================
+2022-03-18 13:50:55,418 - setUp.py:[30] - [INFO] - {'success': False, 'errorCode': 'JAVA_EXCEPTION_CAUGHT', 'setting': {}, 'apps': []}

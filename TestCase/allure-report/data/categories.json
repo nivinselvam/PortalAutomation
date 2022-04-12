@@ -1,0 +1,112 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Failed Testcases",
+    "children" : [ {
+      "name" : "AssertionError: This is a failed testcase\nassert False",
+      "children" : [ {
+        "name" : "test_failedTestCase",
+        "uid" : "9358666a7a130c4f",
+        "parentUid" : "f05feb62351b8b73870346bd5495a84f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643863311522,
+          "stop" : 1643863311522,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f05feb62351b8b73870346bd5495a84f"
+    }, {
+      "name" : "AssertionError: This is again a failed testcase\nassert False",
+      "children" : [ {
+        "name" : "test_failedTestcase2",
+        "uid" : "565e36ec384fd6bc",
+        "parentUid" : "dab80f96f4e2dcad02c947359f7baa31",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643863311584,
+          "stop" : 1643863311584,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dab80f96f4e2dcad02c947359f7baa31"
+    } ],
+    "uid" : "7a86a7eff08046daad74540215e2c05e"
+  }, {
+    "name" : "Skipped Testcases",
+    "children" : [ {
+      "name" : "Skipped: Skipping test---------------------",
+      "children" : [ {
+        "name" : "test_skipTest",
+        "uid" : "9ffb751e94de9d1b",
+        "parentUid" : "62e6e49fe1bb8a4f65ac22501386cd46",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1643863311588,
+          "stop" : 1643863311588,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62e6e49fe1bb8a4f65ac22501386cd46"
+    } ],
+    "uid" : "faec8f15bb65c882fbfb28ef387a7da8"
+  }, {
+    "name" : "Passed Testcases",
+    "children" : [ {
+      "children" : [ {
+        "name" : "test_passedTest",
+        "uid" : "c67eab10de657ca2",
+        "parentUid" : "18004c877f6fc70b10ee69727bf4a621",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643863311589,
+          "stop" : 1643863311589,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_brokenTestCase",
+        "uid" : "1718856ead1bbdad",
+        "parentUid" : "18004c877f6fc70b10ee69727bf4a621",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643863374894,
+          "stop" : 1643863375262,
+          "duration" : 368
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18004c877f6fc70b10ee69727bf4a621"
+    } ],
+    "uid" : "20e908c7a3ca4aa9ea5c2c1a6a97fa07"
+  }, {
+    "name" : "Broken Testcases",
+    "children" : [ {
+      "name" : "sshtunnel.BaseSSHTunnelForwarderError: Could not establish session to SSH gateway",
+      "children" : [ {
+        "name" : "test_cashPayment",
+        "uid" : "b2c8dd0f9567ea08",
+        "parentUid" : "4903b6e8b4bcac9e69cd6e66546c7b5f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643863544123,
+          "stop" : 1643863674506,
+          "duration" : 130383
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4903b6e8b4bcac9e69cd6e66546c7b5f"
+    } ],
+    "uid" : "a34dbbf8f5b32e0f449aaba3a68009e6"
+  } ]
+}

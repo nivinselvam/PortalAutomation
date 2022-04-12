@@ -1,0 +1,61 @@
+[ {
+  "uid" : "9358666a7a130c4f",
+  "name" : "test_failedTestCase",
+  "time" : {
+    "start" : 1643863311522,
+    "stop" : 1643863311522,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2c8dd0f9567ea08",
+  "name" : "test_cashPayment",
+  "time" : {
+    "start" : 1643863544123,
+    "stop" : 1643863674506,
+    "duration" : 130383
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9ffb751e94de9d1b",
+  "name" : "test_skipTest",
+  "time" : {
+    "start" : 1643863311588,
+    "stop" : 1643863311588,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c67eab10de657ca2",
+  "name" : "test_passedTest",
+  "time" : {
+    "start" : 1643863311589,
+    "stop" : 1643863311589,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1718856ead1bbdad",
+  "name" : "test_brokenTestCase",
+  "time" : {
+    "start" : 1643863374894,
+    "stop" : 1643863375262,
+    "duration" : 368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "565e36ec384fd6bc",
+  "name" : "test_failedTestcase2",
+  "time" : {
+    "start" : 1643863311584,
+    "stop" : 1643863311584,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

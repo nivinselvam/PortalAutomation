@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Feb 03 10:12:54 IST 2022","Thu Feb 03 10:12:55 IST 2022","368","","test_EndToEndCash","","","","test_brokenTestCase",""
+"skipped","Thu Feb 03 10:11:51 IST 2022","Thu Feb 03 10:11:51 IST 2022","0","","test_EndToEndCash","","","","test_skipTest",""
+"failed","Thu Feb 03 10:11:51 IST 2022","Thu Feb 03 10:11:51 IST 2022","0","","test_EndToEndCash","","","","test_failedTestcase2",""
+"passed","Thu Feb 03 10:11:51 IST 2022","Thu Feb 03 10:11:51 IST 2022","0","","test_EndToEndCash","","","","test_passedTest",""
+"failed","Thu Feb 03 10:11:51 IST 2022","Thu Feb 03 10:11:51 IST 2022","0","","test_EndToEndCash","","","","test_failedTestCase",""
+"broken","Thu Feb 03 10:15:44 IST 2022","Thu Feb 03 10:17:54 IST 2022","130383","","test_EndToEndCash","","","","test_cashPayment",""

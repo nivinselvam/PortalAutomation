@@ -1,0 +1,55 @@
+{
+  "uid" : "9ffb751e94de9d1b",
+  "name" : "test_skipTest",
+  "fullName" : "test_EndToEndCash#test_skipTest",
+  "historyId" : "ebf957e7e8621c25df7e8fb290aeb8c7",
+  "time" : {
+    "start" : 1643863311588,
+    "stop" : 1643863311588,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Skipping test---------------------",
+  "statusTrace" : "('/home/ezetap/PycharmProjects/PortalAutomation/TestCase/test_EndToEndCash.py', 116, 'Skipped: Skipping test---------------------')",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_EndToEndCash"
+  }, {
+    "name" : "host",
+    "value" : "ezetap"
+  }, {
+    "name" : "thread",
+    "value" : "34668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_EndToEndCash"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Skipped Testcases",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9ffb751e94de9d1b.json",
+  "parameterValues" : [ ]
+}

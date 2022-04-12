@@ -1,0 +1,1 @@
+2022-02-03 10:17:54,504| ERROR   | Could not connect to gateway 192.168.3.73:22 : Unable to connect to 192.168.3.73: [Errno 110] Connection timed out

@@ -1,0 +1,7 @@
+Amount from API response : 41.0
+Amount from DB table txn :  41.0
+txnType from portal txn history :  CASH
+txnStatus from portal txn history :  Settled
+Amount from portal txn history :  Rs.41.00
+Username from portal txn history :  1235671230
+TxnID from portal txn history :  220203044001877E010060037

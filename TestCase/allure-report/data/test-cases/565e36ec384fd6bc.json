@@ -1,0 +1,55 @@
+{
+  "uid" : "565e36ec384fd6bc",
+  "name" : "test_failedTestcase2",
+  "fullName" : "test_EndToEndCash#test_failedTestcase2",
+  "historyId" : "fdfc2ab2a5ec3f87b7d76dcb770a4204",
+  "time" : {
+    "start" : 1643863311584,
+    "stop" : 1643863311584,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: This is again a failed testcase\nassert False",
+  "statusTrace" : "def test_failedTestcase2():\n>       assert False,\"This is again a failed testcase\"\nE       AssertionError: This is again a failed testcase\nE       assert False\n\ntest_EndToEndCash.py:112: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_EndToEndCash"
+  }, {
+    "name" : "host",
+    "value" : "ezetap"
+  }, {
+    "name" : "thread",
+    "value" : "34668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_EndToEndCash"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Failed Testcases",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "565e36ec384fd6bc.json",
+  "parameterValues" : [ ]
+}

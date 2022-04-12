@@ -1,0 +1,87 @@
+{
+  "uid" : "b2c8dd0f9567ea08",
+  "name" : "test_cashPayment",
+  "fullName" : "test_EndToEndCash#test_cashPayment",
+  "historyId" : "17b0d414e64af4dfa52b028778c2d28d",
+  "time" : {
+    "start" : 1643863544123,
+    "stop" : 1643863674506,
+    "duration" : 130383
+  },
+  "status" : "broken",
+  "statusMessage" : "sshtunnel.BaseSSHTunnelForwarderError: Could not establish session to SSH gateway",
+  "statusTrace" : "def test_cashPayment():\n        login_payload = {'username': username, 'password': password}\n        login_resp = setUp.post(login_payload,\"login\")\n        amount = random.randint(1,99)\n        cash_payload = {'username': username, 'password': password, 'amount': amount}\n        cashPayment_resp = setUp.post(cash_payload,\"cashPayment\")\n    \n    \n        txnId = cashPayment_resp['txnId']\n>       dbAmount = validateDB(txnId)\n\ntest_EndToEndCash.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \ntest_EndToEndCash.py:125: in validateDB\n    tunnel.start()\n../venv/lib/python3.8/site-packages/sshtunnel.py:1331: in start\n    self._raise(BaseSSHTunnelForwarderError,\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <class 'sshtunnel.SSHTunnelForwarder'> object\nssh gateway: 192.168.3.73:22\nproxy: no\nusername: divyaandrews\nauthentica...lowed\ncompression: not requested\nlogging level: ERROR\nlocal binds: [('0.0.0.0', 0)]\nremote binds: [('localhost', 3306)]\nexception = <class 'sshtunnel.BaseSSHTunnelForwarderError'>, reason = 'Could not establish session to SSH gateway'\n\n    def _raise(self, exception=BaseSSHTunnelForwarderError, reason=None):\n        if self._raise_fwd_exc:\n>           raise exception(reason)\nE           sshtunnel.BaseSSHTunnelForwarderError: Could not establish session to SSH gateway\n\n../venv/lib/python3.8/site-packages/sshtunnel.py:1174: BaseSSHTunnelForwarderError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "sshtunnel.BaseSSHTunnelForwarderError: Could not establish session to SSH gateway",
+    "statusTrace" : "def test_cashPayment():\n        login_payload = {'username': username, 'password': password}\n        login_resp = setUp.post(login_payload,\"login\")\n        amount = random.randint(1,99)\n        cash_payload = {'username': username, 'password': password, 'amount': amount}\n        cashPayment_resp = setUp.post(cash_payload,\"cashPayment\")\n    \n    \n        txnId = cashPayment_resp['txnId']\n>       dbAmount = validateDB(txnId)\n\ntest_EndToEndCash.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \ntest_EndToEndCash.py:125: in validateDB\n    tunnel.start()\n../venv/lib/python3.8/site-packages/sshtunnel.py:1331: in start\n    self._raise(BaseSSHTunnelForwarderError,\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <class 'sshtunnel.SSHTunnelForwarder'> object\nssh gateway: 192.168.3.73:22\nproxy: no\nusername: divyaandrews\nauthentica...lowed\ncompression: not requested\nlogging level: ERROR\nlocal binds: [('0.0.0.0', 0)]\nremote binds: [('localhost', 3306)]\nexception = <class 'sshtunnel.BaseSSHTunnelForwarderError'>, reason = 'Could not establish session to SSH gateway'\n\n    def _raise(self, exception=BaseSSHTunnelForwarderError, reason=None):\n        if self._raise_fwd_exc:\n>           raise exception(reason)\nE           sshtunnel.BaseSSHTunnelForwarderError: Could not establish session to SSH gateway\n\n../venv/lib/python3.8/site-packages/sshtunnel.py:1174: BaseSSHTunnelForwarderError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6210d90128d457f6",
+      "name" : "log",
+      "source" : "6210d90128d457f6.txt",
+      "type" : "text/plain",
+      "size" : 9268
+    }, {
+      "uid" : "a313489ae6fee0f",
+      "name" : "stderr",
+      "source" : "a313489ae6fee0f.txt",
+      "type" : "text/plain",
+      "size" : 150
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_EndToEndCash"
+  }, {
+    "name" : "host",
+    "value" : "ezetap"
+  }, {
+    "name" : "thread",
+    "value" : "35437-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_EndToEndCash"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3111d527f41731d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643863200337,
+        "stop" : 1643863311519,
+        "duration" : 111182
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Broken Testcases",
+      "matchedStatuses" : [ "broken" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b2c8dd0f9567ea08.json",
+  "parameterValues" : [ ]
+}

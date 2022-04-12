@@ -1,0 +1,33 @@
+EXECUTING FIRST TEST CASE : SUCCESS
+API Validation Is Disabled
+
+=======   DB Validation Started     =======
+=======   DB Validation Completed   =======
+
+======= Portal Validation Started   =======
+======= Portal Validation Completed =======
+
+
+
++---------------------------------------+
+|           Validation Details          |
++-------------------+-------------------+
+| Validation Type   | Validation Status |
++-------------------+-------------------+
+| API Validation    | N/A               |
+| DB Validation     | Pass              |
+| Portal Validation | Pass              |
+| App Validation    | N/A               |
+| UI Validation     | N/A               |
++-------------------+-------------------+
+
+
++-----------------------------------------------------------------+
+|                          Debugging Info                         |
++---------------------+-----+------------+---------+--------+-----+
+| Type                | API | Middleware | Cnpware | Portal | App |
++---------------------+-----+------------+---------+--------+-----+
+| Log Captured        | No  | No         | No      | No     | N/A |
+| Screenshot Captured | N/A | N/A        | N/A     | N/A    | N/A |
++---------------------+-----+------------+---------+--------+-----+
+
